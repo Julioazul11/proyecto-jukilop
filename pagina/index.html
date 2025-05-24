@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <style>
+    .navbar-profile-img {
+      width: 36px;
+      height: 36px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+
+    .nav-item a {
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .view-all {
+      font-size: 14px;
+      color: #c28544;
+      text-decoration: none;
+    }
+
+    .product-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .product-card {
+      max-width: 200px;
+      margin: 10px;
+    }
+
+    .products-row {
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <img src="istockphoto-1326417862-612x612.jpg" alt="Perfil" class="navbar-profile-img" />
+      <span class="fw-bold">PERFIL</span>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item mx-2"><a class="nav-link active" href="#">Moda</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Accesorios</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Maquillaje</a></li>
+      </ul>
+    </div>
+    <div>
+      <a href="#" class="text-dark"><i class="bi bi-gear-fill fs-4"></i></a>
+    </div>
+  </div>
+</nav>
+<div class="container py-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <span class="section-title">VESTIDOS</span>
+    <a href="#" class="view-all">Ver todos</a>
+  </div>
+  <div class="d-flex products-row">
+    <div class="product-card">
+      <img src="1.jpg" alt=" 1" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="2.jpg" alt=" 2" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="6.jpg" alt="Tendencia 3" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="4.jpg" alt="Tendencia 1" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="5.webp" alt="Tendencia 2" class="product-img">
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-between align-items-center mt-5 mb-3">
+    <span class="section-title">TENDENCIA</span>
+    <a href="#" class="view-all">Ver todos</a>
+  </div>
+  <div class="d-flex products-row">
+    <div class="product-card">
+      <img src="4.jpg" alt="Tendencia 1" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="5.webp" alt="Tendencia 2" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="3.jpg" alt=" 3" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="1.jpg" alt=" 1" class="product-img">
+    </div>
+    <div class="product-card">
+      <img src="2.jpg" alt=" 2" class="product-img">
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
